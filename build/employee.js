@@ -8,11 +8,11 @@ class Employee {
         this.project = project;
     }
     displayempdetails() {
-        document.write(`Employee ID : ` + this.empid);
-        document.write(`Employee Name : ` + this.empname);
-        document.write(`Designation : ` + this.des);
-        document.write(`Salary : ` + this.salary);
-        document.write(`Project : ` + this.project);
+        console.log(`Employee ID : ` + this.empid);
+        console.log(`Employee Name : ` + this.empname);
+        console.log(`Designation : ` + this.des);
+        console.log(`Salary : ` + this.salary);
+        console.log(`Project : ` + this.project);
     }
 }
 let employee = new Employee(1011, 'Adhi', "Designer", 27000, "Typescript");
