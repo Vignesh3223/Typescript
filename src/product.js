@@ -7,8 +7,6 @@ function getproducts() {
 }
 getproducts()
     .then(function (product) {
-    document.write(product.map(function (p) { return 'Product ID : ' + p.Id + '\n'; }).toString());
-    document.write(product.map(function (p) { return 'Product Name : ' + p.Name + '\n'; }).toString());
-    document.write(product.map(function (p) { return 'Product Price: ' + p.Price + '\n'; }).toString());
-    document.write(product.map(function (p) { return 'Product Quantity : ' + p.Quantity + '\n'; }).toString());
+    document.write("<h1><center>Product Details</center></h1>");
+    document.write(product.map(function (p) { return 'Product ID : ' + p.Id + ' , ' + 'Product Name : ' + p.Name + ' , ' + 'Product Price: ' + p.Price + ' , ' + 'Product Quantity : ' + p.Quantity + '<br>'; }).toString());
 });
