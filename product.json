@@ -1,0 +1,26 @@
+[
+    {
+        "Id": 101,
+        "Name": "Football",
+        "Price": 650,
+        "Quantity": 100
+    },
+    {
+        "Id": 102,
+        "Name": "Basketball",
+        "Price": 750,
+        "Quantity": 80
+    },
+    {
+        "Id": 103,
+        "Name": "Volleyball",
+        "Price": 550,
+        "Quantity": 120
+    },
+    {
+        "Id" : 104,
+        "Name" : "Handball",
+        "Price" : 700,
+        "Quantity" : 70
+    }
+]
