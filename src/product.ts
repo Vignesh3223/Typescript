@@ -16,3 +16,7 @@ getproducts()
         document.write("<h1><center>Product Details</center></h1>")
         document.write(product.map(p => 'Product ID : ' + p.Id + ' , ' + 'Product Name : ' + p.Name + ' , ' + 'Product Price: ' + p.Price + ' , ' + 'Product Quantity : ' + p.Quantity + '<br>').toString())
     })
+
+    fetch('https://fakestoreapi.com/products/1')
+    .then(res=>res.json())
+    .then(json=>console.log(json))
