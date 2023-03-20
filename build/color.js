@@ -1,7 +1,7 @@
 "use strict";
 function getcolors() {
     return fetch('color.json')
-        .then(res => res.json)
+        .then(res => res.json())
         .then(res => {
         return res;
     });
