@@ -12,7 +12,7 @@ class Domestic extends ElectricBill {
     billDetails() {
         console.log("Domestic Electricity Bill ");
         console.log(`Total units:${this.units}`);
-        console.log("total Rate = " + (5 * this.units));
+        console.log("Rate = " + (5 * this.units));
     }
 }
 class Commerical extends ElectricBill {
